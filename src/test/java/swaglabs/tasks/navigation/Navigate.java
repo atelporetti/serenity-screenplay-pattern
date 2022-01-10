@@ -14,6 +14,6 @@ public class Navigate {
     }
 
     public static Performable toTheShoppingCart() {
-        return Click.on("shopping_cart_link");
+        return Click.on(".shopping_cart_link");
     }
 }

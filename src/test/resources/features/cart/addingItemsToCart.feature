@@ -5,6 +5,7 @@ Feature: Adding items to the cart
       Given Colin has logged on the application
       And he is browsing the catalog
       When he adds the following items to the cart:
-        | Sauce Labs Backpack      |
-      Then the shopping cart count should be 1
-      #And the items should appear in the cart
+        | Sauce Labs Backpack   |
+        | Sauce Labs Bike Light |
+      Then the shopping cart count should be 2
+      And the items should appear in the cart
